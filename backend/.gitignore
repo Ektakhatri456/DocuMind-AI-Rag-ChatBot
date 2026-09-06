@@ -1,0 +1,10 @@
+.env
+venv/
+__pycache__/
+*.pyc
+.chroma/
+chroma_db/
+uploads/
+.pytest_cache/
+faiss_index/
+uploads/
