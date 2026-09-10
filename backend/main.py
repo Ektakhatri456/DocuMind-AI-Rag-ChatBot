@@ -39,7 +39,7 @@ FAISS_DIR = BASE_DIR / "faiss_index"
 UPLOAD_DIR.mkdir(exist_ok=True)
 
 embeddings = GoogleGenerativeAIEmbeddings(
-    model="gemini-embedding-001",
+    model="models/gemini-embedding-001",
     google_api_key=GEMINI_API_KEY,
 )
 
